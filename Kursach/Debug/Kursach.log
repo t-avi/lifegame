@@ -1,0 +1,41 @@
+﻿Сборка начата 01.06.2016 12:29:44.
+     1>Проект "E:\Учёба\Kursach\Kursach\Kursach.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib BreedMap.cpp Cell.cpp CellIterator.cpp MainForm.cpp
+         BreedMap.cpp
+     1>e:\учёба\kursach\kursach\CellIterator.h(17): warning C4383: CellIterator::operator *: смысл отмены адресации дескриптора может измениться, если существует определенный пользователем оператор "*"; запишите оператор в виде статической функции, чтобы сделать его явным по отношению к операнду
+     1>BreedMap.cpp(74): warning C4620: не найдена постфиксная форма "operator ++" для типа "CellIterator"; используется префиксная форма
+                 e:\учёба\kursach\kursach\CellIterator.h(4): см. объявление "CellIterator"
+     1>BreedMap.cpp(124): warning C4620: не найдена постфиксная форма "operator ++" для типа "CellIterator"; используется префиксная форма
+                 e:\учёба\kursach\kursach\CellIterator.h(4): см. объявление "CellIterator"
+     1>BreedMap.cpp(157): warning C4620: не найдена постфиксная форма "operator ++" для типа "CellIterator"; используется префиксная форма
+                 e:\учёба\kursach\kursach\CellIterator.h(4): см. объявление "CellIterator"
+     1>BreedMap.cpp(200): warning C4620: не найдена постфиксная форма "operator ++" для типа "CellIterator"; используется префиксная форма
+                 e:\учёба\kursach\kursach\CellIterator.h(4): см. объявление "CellIterator"
+     1>BreedMap.cpp(212): warning C4620: не найдена постфиксная форма "operator ++" для типа "CellIterator"; используется префиксная форма
+                 e:\учёба\kursach\kursach\CellIterator.h(4): см. объявление "CellIterator"
+         Cell.cpp
+         CellIterator.cpp
+     1>e:\учёба\kursach\kursach\CellIterator.h(17): warning C4383: CellIterator::operator *: смысл отмены адресации дескриптора может измениться, если существует определенный пользователем оператор "*"; запишите оператор в виде статической функции, чтобы сделать его явным по отношению к операнду
+         MainForm.cpp
+     1>e:\учёба\kursach\kursach\CellIterator.h(17): warning C4383: CellIterator::operator *: смысл отмены адресации дескриптора может измениться, если существует определенный пользователем оператор "*"; запишите оператор в виде статической функции, чтобы сделать его явным по отношению к операнду
+     1>e:\учёба\kursach\kursach\MainForm.h(621): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>e:\учёба\kursach\kursach\MainForm.h(624): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>e:\учёба\kursach\kursach\MainForm.h(627): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>e:\учёба\kursach\kursach\MainForm.h(630): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>e:\учёба\kursach\kursach\MainForm.h(633): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+         Создание кода...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Учёба\Kursach\Debug\Kursach.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Kursach.MainForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Учёба\Kursach\Debug\Kursach.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\BreedMap.obj
+         Debug\Cell.obj
+         Debug\CellIterator.obj
+         Debug\MainForm.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         Kursach.vcxproj -> E:\Учёба\Kursach\Debug\Kursach.exe
+     1>Сборка проекта "E:\Учёба\Kursach\Kursach\Kursach.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:09.14

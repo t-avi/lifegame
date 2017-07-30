@@ -1,0 +1,24 @@
+﻿Сборка начата 11.03.2015 2:45:19.
+     1>Проект "C:\Users\user\Desktop\Kursach\Kursach\Kursach.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib BreedMap.cpp Cell.cpp MainForm.cpp
+         BreedMap.cpp
+         Cell.cpp
+         MainForm.cpp
+         Создание кода...
+     1>c:\users\user\desktop\kursach\kursach\breedmap.cpp(47): warning C4715: BreedMap::Search: значение возвращается не при всех путях выполнения
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Desktop\Kursach\Release\Kursach.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\Kursach.MainForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\Desktop\Kursach\Release\Kursach.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\BreedMap.obj
+         Release\Cell.obj
+         Release\MainForm.obj
+         "Release\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     1>MainForm.obj : error LNK2020: неразрешенная лексема (06000010) BreedMap::Del
+     1>BreedMap.obj : error LNK2020: неразрешенная лексема (06000010) BreedMap::Del
+     1>C:\Users\user\Desktop\Kursach\Release\Kursach.exe : fatal error LNK1120: неразрешенных внешних элементов: 2
+     1>Сборка проекта "C:\Users\user\Desktop\Kursach\Kursach\Kursach.vcxproj" завершена (целевые объекты Rebuild) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:02.75
